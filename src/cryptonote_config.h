@@ -30,9 +30,9 @@
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       10000 //size of block (bytes) after which reward for block calculated using block size
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
 //TODO Define number of digits
-#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                
+#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                3
 //TODO Define number of smallest units in one coin
-#define COIN       										1000
+#define COIN       										                  1000
 //TODO Define default fee for transactions
 #define DEFAULT_FEE                                     1
 
@@ -58,7 +58,7 @@
 #define CRYPTONOTE_PROTOCOL_HOP_RELAX_COUNT             3      //value of hop, after which we use only announce of new block
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-#define P2P_DEFAULT_PORT  								17846
+#define P2P_DEFAULT_PORT  								              17846
 //TODO This port will be used by the daemon to interact with simlewallet
 #define RPC_DEFAULT_PORT                                18846
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
