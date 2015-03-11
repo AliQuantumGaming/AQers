@@ -90,5 +90,5 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define GENESIS_COINBASE_TX_HEX                 "e01b5a4d6cc6f08a3aa2a24d03e802944b4615f9caf349a3d2abc6b4ef86bafb"
+#define GENESIS_COINBASE_TX_HEX                 "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121011235ffbf31faf49961d79d93335646a8facdda64c46136133f213b65c5554cd8"
 
