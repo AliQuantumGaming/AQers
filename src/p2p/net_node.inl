@@ -201,10 +201,10 @@ namespace nodetool
       m_network_id.data[0] += 1;
     }
     
-    ADD_HARDCODED_SEED_NODE("167.114.69.203:17236");
-    ADD_HARDCODED_SEED_NODE("151.80.139.234:17236");
-    ADD_HARDCODED_SEED_NODE("2607:5300:101::49c:17236");
-    ADD_HARDCODED_SEED_NODE("2001:41d0:52:e00::66f:17236");
+    ADD_HARDCODED_SEED_NODE("167.114.69.203:17846");
+    ADD_HARDCODED_SEED_NODE("151.80.139.234:17846");
+    ADD_HARDCODED_SEED_NODE("2607:5300:101::49c:17846");
+    ADD_HARDCODED_SEED_NODE("2001:41d0:52:e00::66f:17846");
     
     bool res = handle_command_line(vm);
     CHECK_AND_ASSERT_MES(res, false, "Failed to handle command line");
